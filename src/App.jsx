@@ -2,7 +2,7 @@ import React from 'react'
 import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import Product from './Pages/Product'
-import NavBar from './Layout/NavBar'
+import Navbar from './Layout/Navbar'
 import Footer from './Layout/Footer'
 import Shop from './Pages/Shop'
 import Collection from './Pages/Collection'
@@ -13,7 +13,7 @@ import ContactUs from './Pages/ContactUs'
 const App = () => {
   return (
    <>
-   <NavBar />
+   <Navbar />
     <Routes>
       <Route path='/' element={ <Home />}/>
       <Route path='/collection'element={<Collection />} />

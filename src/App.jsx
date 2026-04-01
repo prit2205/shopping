@@ -2,18 +2,18 @@ import React from 'react'
 import Home from './Pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import Product from './Pages/Product'
-import Navbar from './Layout/Navbar'
 import Footer from './Layout/Footer'
 import Shop from './Pages/Shop'
 import Collection from './Pages/Collection'
 import AboutUs from './Pages/AboutUs'
 import ContactUs from './Pages/ContactUs'
+import Navbar from './Layout/NavBar'
 
 
 const App = () => {
   return (
    <>
-   <Navbar />
+  <Navbar />
     <Routes>
       <Route path='/' element={ <Home />}/>
       <Route path='/collection'element={<Collection />} />
